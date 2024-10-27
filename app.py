@@ -25,7 +25,7 @@ app.config["OPENAPI_URL_PREFIX"] = "/"
 app.config["OPENAPI_SWAGGER_UI_PATH"] = "/swagger-ui"
 app.config["OPENAPI_SWAGGER_UI_URL"] = "https://cdn.jsdelivr.net/npm/swagger-ui-dist/"
 app.config['SECRET_KEY'] = os.getenv('SECRET_KEY', 'your-secure-default-key')
-app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URL', "postgresql://e_stores_user:IUrdbF3zZTDv6uxPpznp1ucsT1hIp9S8@dpg-csf17f5svqrc73f9kkjg-a.oregon-postgres.render.com/e_stores")
+app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URL', "postgresql://e_stores_jgl7_user:w4Eg3fdn9S05G8SAsddzm8cpE1kUGAXl@dpg-csf43k5svqrc73fapspg-a.oregon-postgres.render.com/e_stores_jgl7")
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config["PROPAGATE_EXCEPTIONS"] = True
 db.init_app(app)
