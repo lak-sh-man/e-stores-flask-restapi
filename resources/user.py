@@ -12,6 +12,13 @@ from blocklist import BLOCKLIST
 blp = Blueprint("Users", "users", description="Operations on users")
 
 
+@blp.route("/")
+class WelcomePage(MethodView):
+    @blp.response(200)
+    def get(self):
+        return {"message": "Welcome to e-stores"}, 201
+
+
 @blp.route("/register")
 class UserRegister(MethodView):
     @blp.arguments(UserSchema)
