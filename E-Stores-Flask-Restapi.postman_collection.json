@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "aa73ef67-9a7c-4a04-9fad-c0c06a24f746",
+		"_postman_id": "88f9f8f5-af6a-4de8-9480-fdd72a67c1e0",
 		"name": "E-Stores-Flask-Restapi",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "28705244"
@@ -520,6 +520,35 @@
 		{
 			"name": "Users",
 			"item": [
+				{
+					"name": "/",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								""
+							]
+						}
+					},
+					"response": []
+				},
 				{
 					"name": "/user/<string:user_id>",
 					"protocolProfileBehavior": {
