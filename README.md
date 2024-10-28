@@ -1,1 +1,1 @@
-# e-stores-flask-restapi
+# e-stores-api-project
